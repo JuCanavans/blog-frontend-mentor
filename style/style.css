@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-fundo: #f5d04e;
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #f5cf50;
+    --cor-titulo: #111111;
+    --cor-texto: #b0b0b0;
+    --cor-border: #000200;
+    --font-family: 'Figtree';
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+}
+
+.main{
+    display: relative;
+    overflow: hidden;
+}
+
+.main-container{
+    background-color: var(--cor-primaria);
+    position: absolute;
+    border: 1px solid;
+    box-shadow: 6px 9px var(--cor-border);
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+}
+
+.main-menu{
+    margin: 1.37em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+}
+
+.main-container-img-base{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.main-container-description{
+    display: block;
+}
+
+.main-container-text-decoration{
+    background-color: var(--cor-fundo);
+    display: inline-block;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    border-radius: 4px;
+    font-size: 13px;
+    color: var(--cor-titulo);
+    font-weight: 700;
+    margin-bottom: 1.2em;
+}
+
+.main-container-text-date{
+    margin-bottom: 1.2em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.main-container-titulo{
+    margin-bottom: 0.6em;
+    font-weight: 700;
+}
+
+.main-container-titulo:hover{
+    color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.main-description{
+    font-size: 0.9em;
+    color: var(--cor-texto);
+    line-height: 1.7;
+}
+
+.main-image{
+    width: 30px;
+    border-radius: 15px;
+}
+
+.main-image-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-name-div{
+    margin-left: 0.6em;
+}
+
+.main-name{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
