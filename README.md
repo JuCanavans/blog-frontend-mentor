@@ -8,7 +8,7 @@
 ![css](https://github.com/JuCanavans/carta_de_aniversario/assets/103950621/b265c9fd-bbde-4f4d-a09d-574e184aca00)
 
 ## 🌐 Website
-Visit the [Blog FrontEnd Mentor](https://layout-receita.vercel.app/) to explore the live site.
+Visit the [Blog FrontEnd Mentor](https://blog-frontend-mentor-phi.vercel.app/) to explore the live site.
 
 ### <p align="center">Desenvoldedor Julio Cesar.</p>
 
